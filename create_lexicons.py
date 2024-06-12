@@ -161,14 +161,12 @@ class CreateLexicon:
                         for emotion, score in self.word_lexicon_sentiment[lemma].items():
                             if score:
                                 lemmas_emotions.add(emotion)
-                                # lemmas_emotions |= set(sentiment_neigbours[emotion])
             else:
                 for lemma in lemmas:
                     if lemma in self.word_lexicon.keys():
                         for emotion, score in self.word_lexicon[lemma].items():
                             if score:
                                 lemmas_emotions.add(emotion)
-                                # lemmas_emotions |= set(sentiment_neigbours[emotion])
 
         else:  # if we have no information on any of the english lemmas, we assume them to be emotional
             if sentiment or only_sentiment:
@@ -508,7 +506,7 @@ class CreateLexicon:
                                     }
                     }
 
-        with open('generated_files/sentisynset_lexicon.xml', 'w') as f:
+        with open('sentisynset_lexicon.xml', 'w') as f:
             f.write(xmltodict.unparse(xml_data, pretty=True))
 
 

@@ -1,7 +1,7 @@
 # SentiSynset
 This repository is for the paper Identifying Emotional and Polar Concepts via Synset Translation. In the *13th Joint Conference on Lexical and Computational Semantics (\*SEM 2024)*, Mexico City, Mexico.
 
-[Paper](https://github.com/UAlberta-NLP/SentiSynset/blob/main/assets/paper.pdf) [Poster](https://github.com/UAlberta-NLP/SentiSynset/blob/main/assets/poster.pdf) [Slides](https://github.com/UAlberta-NLP/SentiSynset/blob/main/assets/slides.pdf)
+[[Paper](https://github.com/UAlberta-NLP/SentiSynset/blob/main/assets/paper.pdf)] [[Poster](https://github.com/UAlberta-NLP/SentiSynset/blob/main/assets/poster.pdf)] [[Slides](https://github.com/UAlberta-NLP/SentiSynset/blob/main/assets/slides.pdf)]
 
 ## Directory
 + **emolex** - English and translated multingual NRC Emotion Lexicons (EmoLex)

@@ -9,6 +9,7 @@ This repository is for the paper Identifying Emotional and Polar Concepts via Sy
 ```
 SentiSynset
 ├─── assets
+|    ├─── paper.pdf
 |    ├─── poster.pdf
 |    └─── slides.pdf
 ├─── emolex

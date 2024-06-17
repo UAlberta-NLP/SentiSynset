@@ -1,5 +1,5 @@
 # SentiSynset
-This repository is for the paper Identifying Emotional and Polar Concepts via Synset Translation. In the *13th Joint Conference on Lexical and Computational Semantics (\*SEM 2024)*, Mexico City, Mexico. Association for Computational Linguistics. 
+This repository is for the paper Identifying Emotional and Polar Concepts via Synset Translation. In *Proceedings of the 13th Joint Conference on Lexical and Computational Semantics (\*SEM 2024)*, Mexico City, Mexico. Association for Computational Linguistics. 
 
 [[Paper](https://github.com/UAlberta-NLP/SentiSynset/blob/main/assets/paper.pdf)] [[Poster](https://github.com/UAlberta-NLP/SentiSynset/blob/main/assets/poster.pdf)] [[Slides](https://github.com/UAlberta-NLP/SentiSynset/blob/main/assets/slides.pdf)]
 

@@ -1,5 +1,5 @@
 # SentiSynset
-This repository is for the paper Identifying Emotional and Polar Concepts via Synset Translation. In the *13th Joint Conference on Lexical and Computational Semantics (\*SEM 2024)*, pages ??? - ???, Mexico City, Mexico.
+This repository is for the paper Identifying Emotional and Polar Concepts via Synset Translation. In the *13th Joint Conference on Lexical and Computational Semantics (\*SEM 2024)*, Mexico City, Mexico.
 
 [Poster] [Slides] [Video]
 
@@ -8,6 +8,9 @@ This repository is for the paper Identifying Emotional and Polar Concepts via Sy
 + **generated_files** - Intermediary files generated while creating SentiSynset
 ```
 SentiSynset
+├─── assets
+|    ├─── poster.pdf
+|    └─── slides.pdf
 ├─── emolex
 |    ├─── NRC-Emotion-Lexicon-Wordlevel-v0.92.txt
 |    └─── OneFilePerLanguage
@@ -64,3 +67,8 @@ $ python3 main.py
 * **Ning Shi** - ning.shi@ualberta.ca
 * **Bradley Hauer** - bmhauer@ualberta.ca
 * **Grzegorz Kondrak** - gkondrak@ualberta.ca
+
+## BibTex
+```
+TODO
+```

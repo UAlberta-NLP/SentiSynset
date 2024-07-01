@@ -48,7 +48,7 @@ SentiSynset
 
 ## Setup
 Please ensure required packages are already installed. A virtual environment is recommended.
-```bash
+```sh
 $ cd SentiSynset
 $ pip install pip --upgrade
 $ pip install -r requirements.txt
@@ -56,7 +56,7 @@ $ pip install -r requirements.txt
 
 ## Run
 The script needs to be able to read data from a local copy of the BabelNet indices (you cannot use the BabelNet API in online mode as you will quickly exceed the daily requests limit). Note that the BabelNet API requires Python 3.8.
-```bash
+```sh
 $ python3 main.py
 ```
 
@@ -70,7 +70,7 @@ $ python3 main.py
 * **Grzegorz Kondrak** - gkondrak@ualberta.ca
 
 ## BibTex
-```bibTex
+```bibtex
 @inproceedings{woudstra-etal-2024-identifying,
     title = "Identifying Emotional and Polar Concepts via Synset Translation",
     author = "Woudstra, Logan  and

@@ -1,7 +1,7 @@
 # SentiSynset
-This repository is for the paper Identifying Emotional and Polar Concepts via Synset Translation. In *Proceedings of the 13th Joint Conference on Lexical and Computational Semantics (\*SEM 2024)*, Mexico City, Mexico. Association for Computational Linguistics. 
+This repository is for the paper Identifying Emotional and Polar Concepts via Synset Translation. In *Proceedings of the 13th Joint Conference on Lexical and Computational Semantics (\*SEM 2024)*, pages 142–152, Mexico City, Mexico. Association for Computational Linguistics.
 
-[[Paper](https://github.com/UAlberta-NLP/SentiSynset/blob/main/assets/paper.pdf)] [[Poster](https://github.com/UAlberta-NLP/SentiSynset/blob/main/assets/poster.pdf)] [[Slides](https://github.com/UAlberta-NLP/SentiSynset/blob/main/assets/slides.pdf)]
+[[Paper](https://aclanthology.org/2024.starsem-1.12/)] [[Poster](https://github.com/UAlberta-NLP/SentiSynset/blob/main/assets/poster.pdf)] [[Slides](https://github.com/UAlberta-NLP/SentiSynset/blob/main/assets/slides.pdf)]
 
 ## Directory
 + **emolex** - English and translated multingual NRC Emotion Lexicons (EmoLex)
@@ -71,5 +71,24 @@ $ python3 main.py
 
 ## BibTex
 ```
-TODO
+@inproceedings{woudstra-etal-2024-identifying,
+    title = "Identifying Emotional and Polar Concepts via Synset Translation",
+    author = "Woudstra, Logan  and
+      Dawodu, Moyo  and
+      Igwe, Frances  and
+      Li, Senyu  and
+      Shi, Ning  and
+      Hauer, Bradley  and
+      Kondrak, Grzegorz",
+    editor = "Bollegala, Danushka  and
+      Shwartz, Vered",
+    booktitle = "Proceedings of the 13th Joint Conference on Lexical and Computational Semantics (*SEM 2024)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.starsem-1.12",
+    pages = "142--152",
+    abstract = "Emotion identification and polarity classification seek to determine the sentiment expressed by a writer. Sentiment lexicons that provide classifications at the word level fail to distinguish between different senses of polysemous words. To address this problem, we propose a translation-based method for labeling each individual lexical concept and word sense. Specifically, we translate synsets into 20 different languages and verify the sentiment of these translations in multilingual sentiment lexicons. By applying our method to all WordNet synsets, we produce SentiSynset, a synset-level sentiment resource containing 12,429 emotional synsets and 15,567 polar synsets, which is significantly larger than previous resources. Experimental evaluation shows that our method outperforms prior automated methods that classify word senses, in addition to outperforming ChatGPT. We make the resulting resource publicly available on GitHub.",
+}
 ```
